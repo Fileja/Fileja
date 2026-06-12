@@ -33,3 +33,17 @@ A small CLI and GitHub Action I built to check Supabase/Postgres SQL migrations 
 I made it because RLS mistakes are easy to miss in migrations, especially missing row level security, permissive policies, missing `WITH CHECK`, and risky grants to `anon` or `public`. I also wanted to build a real GitHub Action myself instead of only using existing ones.
 
 `TypeScript` · `Node.js` · `GitHub Actions` · `PostgreSQL` · `Supabase` · `CLI`
+
+## 🧪 Currently Building
+
+### ApplyFlow
+
+Profile-based job matching system with automated job discovery and custom fit estimation.
+
+The goal is to let a user provide a profile through skills, LinkedIn-style information, or a CV, then discover relevant roles and estimate how well each job fits using a scoring workflow.
+
+**Planned workflow:**
+
+`Profile Input` → `Job Discovery` → `Feature Extraction` → `Fit Estimation` → `Ranked Results`
+
+**Stack:** `FastAPI` · `Supabase/SQLite` · `n8n` · `PyTorch` · `React` · `Vite`
