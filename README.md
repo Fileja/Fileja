@@ -26,7 +26,7 @@
 
 ## 🧩 Recent Project
 
-### 🛡️ [TableLint](https://github.com/Fileja/TableLint)
+### - [TableLint](https://github.com/Fileja/TableLint)
 
 A small CLI and GitHub Action I built to check Supabase/Postgres SQL migrations for common RLS and security mistakes.
 
@@ -36,7 +36,7 @@ I made it because RLS mistakes are easy to miss in migrations, especially missin
 
 ## 🧪 Currently Building
 
-### ApplyFlow
+### - [ApplyFlow](https://github.com/Fileja/ApplyFlow)
 
 Profile-based job matching system with automated job discovery and custom fit estimation.
 
