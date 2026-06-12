@@ -26,10 +26,10 @@
 
 ## 🧩 Recent Project
 
-### 💬 [Messaging Hub](https://github.com/Fileja/messaging-hub)
+### 🛡️ [TableLint](https://github.com/Fileja/TableLint)
 
-A small Electron app I built to keep WhatsApp Web and other messaging apps in their own focused desktop window.
+A small CLI and GitHub Action I built to check Supabase/Postgres SQL migrations for common RLS and security mistakes.
 
-I made it because I got tired of keeping WhatsApp buried inside normal browser tabs, and I wanted a cleaner setup that uses less memory for my own workflow.
+I made it because RLS mistakes are easy to miss in migrations, especially missing row level security, permissive policies, missing `WITH CHECK`, and risky grants to `anon` or `public`. I also wanted to build a real GitHub Action myself instead of only using existing ones.
 
-`Electron` · `React` · `Node.js` · `Vite` · `electron-builder`
+`TypeScript` · `Node.js` · `GitHub Actions` · `PostgreSQL` · `Supabase` · `CLI`
